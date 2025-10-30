@@ -192,3 +192,205 @@ footer {
   padding: 15px;
   font-size: 0.9rem;
 }
+
+.about-page {
+  text-align: center;
+  padding: 60px 40px;
+  background: white;
+}
+
+.about-page h1 {
+  color: #48c6ef;
+  margin-bottom: 20px;
+  font-size: 2.3rem;
+}
+
+.about-page p {
+  max-width: 800px;
+  margin: 10px auto;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Mission Section */
+.mission {
+  background: #eaf9ff;
+  padding: 50px 30px;
+  text-align: center;
+}
+
+.mission h2 {
+  color: #48c6ef;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.mission p {
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+/* Team Section */
+.team {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.member {
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 12px;
+  width: 220px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.member img {
+  width: 100%;
+  border-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.member h3 {
+  color: #333;
+  margin: 10px 0 5px;
+}
+
+.member p {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Values Section */
+.values {
+  background: #eaf9ff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.values ul {
+  list-style: none;
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.values li {
+  margin: 8px 0;
+}
+
+/* Why Choose Us */
+.choose {
+  background: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.choose ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.choose li {
+  margin: 6px 0;
+}
+
+/* Testimonials */
+.testimonials {
+  background: #f4f9f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.testimonials .review {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 15px auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.testimonials h4 {
+  margin-top: 10px;
+  color: #48c6ef;
+}
+
+header {
+  text-align: center;
+  background: linear-gradient(90deg, #48c6ef, #6f86d6);
+  color: white;
+  padding: 50px 20px;
+  border-radius: 0 0 20px 20px;
+}
+
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px;
+  gap: 40px;
+}
+
+.contact-info, .contact-form {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  padding: 30px;
+  width: 350px;
+}
+
+.contact-info h2, .contact-form h2 {
+  color: #48c6ef;
+  margin-bottom: 15px;
+}
+
+.contact-info p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.social-links a {
+  display: block;
+  margin: 5px 0;
+  color: #6f86d6;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.contact-form button {
+  background: #48c6ef;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #6f86d6;
+}
